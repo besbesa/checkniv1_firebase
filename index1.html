@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="image">
+            <div class="alert" id="alert">Your message has been sent</div>
+            <div class="design">
+                <div class="column2">
+                    <h3><center>Get In Touch</center></h3>  
+                    <form id="contactForm">
+                        <div class="form-element">
+                            <label>Id</label><br><br>
+                            <input type="text" name="id" id="id" >
+                        </div> 
+                        <div class="form-element">
+                            <label>Password</label><br><br>
+                            <input type="password" name="sword" id="password">
+                        </div>  
+                        <div class="form-element">
+                            <label>Email</label><br><br>
+                            <input type="email" name="mail" id="email">
+                        </div>
+                        <div class="textarea">
+                            <label>Message</label><br><br>
+                            <textarea name="sname" rows="7" cols="94" id="message"></textarea>        
+                        </div>
+                        <button class="bouton" type="submit" name="submit" value="submit">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+    <script src="js/main.js"></script>
+</html>
